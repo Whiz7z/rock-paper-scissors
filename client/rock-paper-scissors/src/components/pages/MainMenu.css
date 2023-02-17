@@ -1,0 +1,31 @@
+.create-room-input {
+  width: 195px;
+  border: 2px solid rgb(194, 168, 126);
+  padding: 5px;
+  outline: none;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  border: 5px solid #487085;
+  background-color: rgba(174, 157, 130, 0.5);
+  font-weight: bold;
+
+  color: rgb(212, 231, 226);
+}
+
+::placeholder {
+  color: rgb(212, 231, 226);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: rgb(212, 231, 226);
+  -webkit-box-shadow: 0 0 0px 1000px rgba(174, 157, 130, 0.5) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}

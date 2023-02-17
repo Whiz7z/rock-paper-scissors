@@ -1,0 +1,23 @@
+.reset_btn {
+  width: 120px;
+  height: 40px;
+  background-color: aqua;
+  opacity: 70%;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.reset_btn:hover {
+  background-color: white;
+}
+
+.line {
+  background-color: black;
+  align-self: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .reset_btn {
+    width: 70px;
+  }
+}

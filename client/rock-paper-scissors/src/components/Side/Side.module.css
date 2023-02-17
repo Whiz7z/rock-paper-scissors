@@ -1,0 +1,73 @@
+.side_wapper {
+  max-width: 700px;
+  display: grid;
+}
+
+.player {
+  justify-self: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #2a576f;
+}
+
+.opponent {
+  justify-self: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #791a2d;
+}
+
+.moved {
+  justify-self: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: rgb(38, 113, 38);
+}
+
+.isMoved {
+  justify-self: center;
+  font-weight: bold;
+  color: green;
+  font-size: 22px;
+  top: 0px;
+}
+
+.score {
+  justify-self: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 42px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.equipment {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(80px, 150px));
+  grid-template-rows: min-content min-content;
+  row-gap: 50px;
+  justify-items: center;
+  justify-self: center;
+}
+
+@media only screen and (max-width: 1600px) {
+  .equipment {
+    width: 250px;
+    min-height: 185px;
+    max-height: 250px;
+    row-gap: 15px;
+  }
+
+  .score {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+
+  .player {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+}

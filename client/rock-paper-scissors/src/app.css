@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #487085;
+}
+#root {
+  background-color: rgba(96, 134, 154, 0.6);
+}
+
+.main-background {
+  width: 400px;
+  height: 400px;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: minmax(40vw, 875px) minmax(50px, 150px) minmax(
+      40vw,
+      875px
+    );
+  justify-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.game-id {
+  position: fixed;
+  width: 170px;
+  padding: 5px;
+  min-height: 40px;
+  background-color: burlywood;
+  color: #487085;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2.2rem;
+  right: 0;
+  top: 0;
+}
+
+.back-link {
+  position: fixed;
+  width: 170px;
+  padding: 5px;
+  min-height: 40px;
+  background-color: #487085;
+  color: burlywood;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2.2rem;
+  left: 0px;
+  top: 0;
+}
+
+.mainmenu-h1 {
+  color: #487085;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.winrate {
+  display: block;
+  font-weight: bold;
+}
+
+.winrate > span {
+  color: rgb(222, 184, 135);
+}
+
+.winrate-cents {
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.winrate-cents > span {
+  color: rgb(222, 184, 135);
+}
+
+.mainmenu-h1 > span {
+  color: rgb(222, 184, 135);
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/ezgif.com-video-to-gif.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* position: fixed;
+  z-index: -5; */
+}
+
+.video-sub {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(72, 112, 133, 0.3);
+}
+
+@media only screen and (max-width: 650px) {
+  .game-container {
+    grid-template-columns: 1fr;
+    margin-top: 90px;
+  }
+}
