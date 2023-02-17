@@ -1,0 +1,9 @@
+{
+  "env": {
+    "DB_USER": "login",
+    "DB_PASSWORD": "pass",
+    "DB_NAME": "dbname",
+    "JWT_KEY": "something",
+    "CLIENT_URL": "http://localhost:3000"
+  }
+}
